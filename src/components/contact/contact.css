@@ -1,0 +1,78 @@
+.container.contact-container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contact_options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact_option{
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
+}
+.contact_option:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+.contact_option_icon{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.contact_option a{
+    margin-top: 1rem;
+    display: inline-block;
+    gap: 1.2rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white );
+    
+}
+@media screen  and (max-width: 1024px){
+    .about_container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about_me{
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about_content p{
+        margin:  1rem 0 1.5rem;
+    }
+    .aido-image{
+        height: 18rem;
+        width: 100%;
+    
+    }
+}
+@media screen  and (max-width: 1024px){
+   .container.contact-container{
+       grid-template-columns: 1fr;
+       gap: 2rem;
+   }
+}
+@media screen  and (max-width: 600px){
+    .container.contact-container{
+        width: var(--container-width-sm);
+    }
+}
