@@ -4,7 +4,7 @@ import Nav from './components/nav/nav';
 import Experience from './components/experience/experience';
 import Services from './components/services/services';
 import Portofolia from './components/portofolia/portofolia';
-import Testemonia from './components/testemonia/testemonia';
+// import Testemonia from './components/testemonia/testemonia';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import About from './components/about/about';
@@ -18,9 +18,8 @@ function App() {
       <Experience/>
       <Services/>
       <Portofolia/>
-  
+      {/* <Testemonia/> */}
       <Contact/>
-    
       <Footer/>
     </div>
   );

@@ -21,20 +21,20 @@ const Contact = () => {
         <div className="contact_options">
           <article className="contact_option">
             <MdOutlineMail className='contact_option_icon'/>
-          <h4>Email</h4>
-          <h5>halalmedia9@gmail.com</h5>
+          <h5>Email</h5>
+          <h6>halalmedia9@gmail.com</h6>
           <a href="halalmedia9@gmail.com">Send a message.</a>
           </article>
           <article className="contact_option">
             <RiMessengerLine className='contact_option_icon'/>
-          <h4>Messenger</h4>
-          <h5>halalmedia9@gmail.com</h5>
-          <a href="halalmedia9@gmail.com">Send a message.</a>
+          <h5>Messenger</h5>
+          <h6>Aidarous muse</h6>
+          <a href="@aidarous_muse">Send a message.</a>
           </article>
           <article className="contact_option">
             <SiWhatsapp className='contact_option_icon'/>
-          <h4>WhatsApp</h4>
-          <h5>halalmedia9@gmail.com</h5>
+          <h5>WhatsApp</h5>
+          <h6>0634671911</h6>
           <a href="halalmedia9@gmail.com">Send a message.</a>
           </article>
         </div>
